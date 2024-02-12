@@ -11,10 +11,11 @@
 .input_text {
   text-align: center;
   color: black;
+  font-size: 25px;
 }
 
 .remove {
-  width: 270px;
+  width: 150px;
   text-align: center;
   border: 8px solid gray;
   border-radius: 3px;
@@ -22,12 +23,12 @@
 }
 
 .cal_card {
-  width: 290px;
-  height: 450px;
+  width: 330px;
+  height: 535px;
   margin: auto;
   border: 3px solid black;
   border-radius: 8px;
-  padding: 20px;
+  padding: 20px 26px 20px 26px;
 }
 
 input {
@@ -36,13 +37,13 @@ input {
   color: black;
   border: 3px solid gray;
   border-radius: 8px;
-  padding: 20px 26px 20px 26px;
+  padding: 26px 38px 20px 26px;
   margin: 5px;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .top_text {
-  width: 225px;
+  width: 275px;
   font-size: 25px;
   border: 2px solid black;
   border-radius: 3px;

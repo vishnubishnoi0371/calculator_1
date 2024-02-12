@@ -19,13 +19,20 @@
         <div class="d-flex">
           <input class="top_text" type="text" name="response" /> <br />
         </div>
-        <input
-          type="button"
-          value="AC"
-          onclick="counter.response.value = ' ' "
-          class="remove"
-        />
-        <br />
+        <div class="flex">
+          <input
+            type="button"
+            value="AC"
+            onclick="counter.response.value = ' ' "
+            class="remove"
+          />
+          <input
+            type="button"
+            value="Back"
+            class="remove"
+            onclick="counter.response.value = counter.response.value.slice(0,-1)"
+          />
+        </div>
 
         <input
           type="button"
