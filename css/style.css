@@ -1,0 +1,50 @@
+.d-flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+
+.input_text {
+  text-align: center;
+  color: black;
+}
+
+.remove {
+  width: 270px;
+  text-align: center;
+  border: 8px solid gray;
+  border-radius: 3px;
+  background-color: gray;
+}
+
+.cal_card {
+  width: 290px;
+  height: 450px;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+input {
+  width: 20px;
+  background-color: gray;
+  color: black;
+  border: 3px solid gray;
+  border-radius: 8px;
+  padding: 20px 26px 20px 26px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.top_text {
+  width: 225px;
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 20px;
+}

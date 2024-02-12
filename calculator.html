@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>calculator</title>
+  </head>
+  <body></body>
+</html>
+<html lang="en">
+  <head>
+    <title>JavaScript Calculator</title>
+  </head>
+  <body>
+    <h1 class="input_text">Calculator</h1>
+    <div class="cal_card">
+      <form name="counter">
+        <div class="d-flex">
+          <input class="top_text" type="text" name="response" /> <br />
+        </div>
+        <input
+          type="button"
+          value="AC"
+          onclick="counter.response.value = ' ' "
+          class="remove"
+        />
+        <br />
+
+        <input
+          type="button"
+          value="7"
+          onclick="counter.response.value += '7' "
+        />
+        <input
+          type="button"
+          value="8"
+          onclick="counter.response.value += '8' "
+        />
+        <input
+          type="button"
+          value="9"
+          onclick="counter.response.value += '9' "
+        />
+        <input
+          type="button"
+          value="*"
+          onclick="counter.response.value += '*' "
+        />
+
+        <input
+          type="button"
+          value="4"
+          onclick="counter.response.value += '4' "
+        />
+        <input
+          type="button"
+          value="5"
+          onclick="counter.response.value += '5' "
+        />
+        <input
+          type="button"
+          value="6"
+          onclick="counter.response.value += '6' "
+        />
+        <input
+          type="button"
+          value="-"
+          onclick="counter.response.value += '-' "
+        />
+
+        <input
+          type="button"
+          value="1"
+          onclick="counter.response.value += '1' "
+        />
+        <input
+          type="button"
+          value="2"
+          onclick="counter.response.value += '2' "
+        />
+        <input
+          type="button"
+          value="3"
+          onclick="counter.response.value += '3' "
+        />
+        <input
+          type="button"
+          value="+"
+          onclick="counter.response.value += '+' "
+        />
+
+        <input
+          type="button"
+          value="/"
+          onclick="counter.response.value += '/' "
+        />
+        <input
+          type="button"
+          value="0"
+          onclick="counter.response.value += '0' "
+        />
+        <input
+          type="button"
+          value="."
+          onclick="counter.response.value += '.' "
+        />
+        <input
+          type="button"
+          value="="
+          onclick="counter.response.value = eval(counter.response.value)"
+        />
+      </form>
+    </div>
+  </body>
+</html>
