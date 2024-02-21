@@ -25,9 +25,8 @@
 }
 
 .cal_card {
-  width: 330px;
+  width: 360px;
   height: 505px;
-  max-width: 100%;
   max-height: 100%;
   margin: auto;
   border: 3px solid black;
@@ -42,7 +41,8 @@ input {
   border: 3px solid gray;
   border-radius: 8px;
   padding: 26px 38px 20px 26px;
-  margin: 5px;
+  margin: 4px;
+  cursor: pointer;
   font-size: 25px;
 }
 
